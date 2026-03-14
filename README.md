@@ -17,6 +17,7 @@ This repository contains a cinematic landing page for the **QuickFlick Web Serie
 .
 ├── assets/            # Images, logos, backgrounds, OG image, prompts
 ├── index.html         # Main page (SEO/meta + content)
+├── scripts.js         # Nav toggle + auto-year (dependency-free)
 ├── styles.css         # Site styling
 ├── robots.txt         # Crawler rules + sitemap reference
 ├── sitemap.xml        # Sitemap for indexing
@@ -27,7 +28,7 @@ This repository contains a cinematic landing page for the **QuickFlick Web Serie
 
 - **HTML5** for semantic structure + SEO metadata
 - **CSS3** for layout and visual styling
-- **Vanilla JS** (inline, dependency-free) for the mobile nav toggle and auto-year
+- **Vanilla JS** (dependency-free) for the mobile nav toggle and auto-year
 
 ## Local development
 
