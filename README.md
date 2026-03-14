@@ -1,4 +1,4 @@
-\# Film Festival Website (QuickFlick Web Series Festival)
+# Film Festival Website (QuickFlick Web Series Festival)
 
 Static single-page festival site built with HTML + CSS and a small amount of vanilla JavaScript (no frameworks, no build step).
 
