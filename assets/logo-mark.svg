@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="QuickFlick logo mark">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5e3b1"/>
+      <stop offset="0.55" stop-color="#d2b06a"/>
+      <stop offset="1" stop-color="#b89245"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="22" cy="18" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded dark tile -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#07070b"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#shine)"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+
+  <!-- Abstract Q-like reel ring -->
+  <circle cx="30" cy="30" r="14" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tail stroke to suggest a 'Q' (subtle) -->
+  <path d="M39.5 39.5 L48 48" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Small play-notch cutout (negative space) -->
+  <path d="M29 24 L29 36 L39 30 Z" fill="#07070b" fill-opacity="0.92"/>
+</svg>
