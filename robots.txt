@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://filmfestival.fcjamison.com/sitemap.xml
